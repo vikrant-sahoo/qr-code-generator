@@ -91,3 +91,14 @@ footer {
 span {
         font-size: small;
 }
+
+@media (max-width: 500px) {
+        .container {
+                height: max-content;
+                max-width: 96%;
+        }
+
+        .container.active {
+                height: 36rem;
+        }
+}
